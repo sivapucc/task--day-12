@@ -1,0 +1,77 @@
+.row{
+    background-color:aliceblue;
+    height:735px;
+    justify-content: center;
+}
+.col-md-6{
+    justify-content: center;
+}
+.calci{
+    background-color: rgba(0, 0, 0, 0.66);
+    height: 490px;
+    width: 300px;
+    margin: 50px;
+    border-radius:20px;
+}
+.dis{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(skyblue,lightyellow);
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+}
+.ans{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    height: 20px;
+    margin: 10px;
+}
+.bord{
+    border-radius: 20px;
+    background-color:black;
+    height: 400px;
+    margin:10px;
+}
+input{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight:bold;
+}
+.equal{
+    width:200px;
+    margin: 0px 20px 30px 40px;
+}
+.ans1{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    background-image: linear-gradient(skyblue,lightyellow);
+    width: 250px;
+    height: 30px;
+}
+.ans2{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 20px;
+}
+.empty{
+    height: 1px;
+}
+.C{
+    background-image: linear-gradient(pink,red);
+}
+.equal{
+    background-image: linear-gradient(to right bottom,#3a1c71 30%,#d76d77,#ffaf7b);
+}
+.val{
+    background-image: linear-gradient(blue,lightblue);
+}
